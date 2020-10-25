@@ -1,0 +1,30 @@
+{
+	"name": "sms-fs-api",
+	"version": "1.0.0",
+	"description": "Coding challenge reply to be submitted on or before 25th Oct 2020.",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start:dev": "nodemon src/index.js --env .env"
+	},
+	"author": "Arpit",
+	"license": "ISC",
+	"dependencies": {
+		"@hapi/joi": "^17.1.1",
+		"cors": "^2.8.5",
+		"dotenv-safe": "^8.2.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.5.0",
+		"http-status": "^1.4.2",
+		"mongoose": "^5.10.10"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.1.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-prettier": "^3.1.3",
+		"nodemon": "^2.0.4",
+		"prettier": "^2.0.5"
+	}
+}
