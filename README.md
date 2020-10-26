@@ -1,19 +1,20 @@
+To Run the project on local:
+
+1. Run mongodb local server
+2. npm i
+3. create an .env file in root repository with following value.
+
+`NODE_ENV = "development" PORT = 3000 MONGODB_URL=mongodb://127.0.0.1:27017/eventDB`
+
+4. Run command npm run start:dev
 
 Coding challenge reply to be submitted on or before 25th Oct 2020.
 
- 
-
 Coding Challenge as attached here and rule is as follows : -
-
- 
 
 # SMS fullstack challenge
 
- 
-
 ### Your mission, should you choose to accept it
-
- 
 
 1. Setup a database of your choice and seed it from the `data.json`.
 
@@ -30,8 +31,6 @@ All columns should be sortable. The data is requested from the backend.
 4. Above the grid, please add two date pickers to filter the object by date
 
 range.
-
- 
 
 Though this is a small app, please pay attention to your application structure.
 
